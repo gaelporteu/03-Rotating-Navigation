@@ -33,6 +33,7 @@ body {
 
 .circle {
   background-color: #ff7979;
+  opacity: 70%;
   height: 200px;
   width: 200px;
   border-radius: 50%;
