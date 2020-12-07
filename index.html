@@ -1,17 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rotating Navigation</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>My Project</title>
-</head>
+  <body>
+    <div class="container">
+      <div class="circle-container">
+        <div class="circle">
+          <button id="close">
+            <i class="fas fa-times"></i>
+          </button>
+          <button id="open">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
 
-<body>
-    <h1>Project Starter</h1>
+      <div class="content">
+        <h1>Amazing Article</h1>
+        <small>Gaël Porteu de La Morandière</small>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel error,
+          quod aliquam reprehenderit minima culpa facere nam unde maiores
+          cupiditate suscipit quasi laudantium ipsum minus fugiat repellendus
+          deserunt nihil accusamus nesciunt tempora quos eos assumenda voluptas
+          amet. Nam debitis fuga odit tempora doloribus consectetur? Cum optio
+          molestias beatae obcaecati hic, voluptatem ipsam maxime est vitae sed
+          nesciunt voluptatum recusandae, dolor et vero! Odio aspernatur debitis
+          reiciendis qui, ex inventore et est cum vel harum, excepturi laborum
+          dolore officiis minima voluptate accusantium fugiat quo animi
+          recusandae quae. Iste, consectetur deleniti nesciunt cupiditate
+          necessitatibus sequi sint velit laboriosam error voluptas, est beatae.
+        </p>
+
+        <h3>My Dog</h3>
+        <img
+          src="https://images.unsplash.com/photo-1561037404-61cd46aa615b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+          alt="Cute Dog"
+        />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+          voluptatem exercitationem doloremque delectus ut dolorem? Architecto
+          dolor in, totam voluptatem eum ab laboriosam atque, tenetur
+          voluptatibus necessitatibus consequuntur cumque temporibus. Cum autem
+          saepe voluptatem explicabo deserunt commodi fugit magnam. Minima
+          laudantium porro facere, maiores officia incidunt dolorem obcaecati
+          omnis exercitationem?
+        </p>
+      </div>
+    </div>
+
+    <nav>
+      <ul>
+        <li><i class="fas fa-home"></i> Home</li>
+        <li><i class="fas fa-user-alt"></i> About</li>
+        <li><i class="fas fa-envelope"></i> Contact</li>
+      </ul>
+    </nav>
 
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
